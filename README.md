@@ -1,5 +1,9 @@
 # Palpost
-A mock social media page I created where you can create a fake profile and check out more images of my portfolio
+A mock social media page I created where you can create a fake profile and check out more images of my portfolio. You can find the webiste hosted here:
+
+http://palpost.atwebpages.com/login.php
+
+You'll need to create a dummy account to enter the website: fake username, fake email and a password you don't use anywhere important (which is encrypted in the DB).
 
 ## 🌟 Features
 
