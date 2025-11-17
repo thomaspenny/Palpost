@@ -5,6 +5,9 @@ session_start();
 include "background_fns/connection.php";
 include "background_fns/functions.php";
 
+// Force HTTPS
+ForceHTTPS();
+
 EnsureValidToken();
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {

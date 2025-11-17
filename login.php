@@ -4,6 +4,9 @@ session_start();
 include "background_fns/connection.php";
 include "background_fns/functions.php";
 
+// Force HTTPS
+ForceHTTPS();
+
 // ensure valid token
 if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['token']) && ValidateToken($_POST['token'])) {
     // Process the login form submission

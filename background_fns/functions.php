@@ -1,4 +1,13 @@
 <?php
+// Force HTTPS function
+function ForceHTTPS() {
+    if (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] !== 'on') {
+        $redirectURL = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+        header("Location: $redirectURL", true, 301);
+        exit();
+    }
+}
+
 // CheckLogin function
 function CheckLogin($con)
 {
