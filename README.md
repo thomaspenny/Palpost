@@ -5,7 +5,7 @@ https://palpost.atwebpages.com/login.php
 
 You'll need to create a dummy account to enter the website: fake username, fake email and a password you don't use anywhere important (which is encrypted in the DB).
 
-## 🌟 Features
+## Features
 
 ### User Management
 - **User Registration & Authentication**: Secure signup and login system
@@ -25,7 +25,7 @@ You'll need to create a dummy account to enter the website: fake username, fake 
 - **User Profiles**: View user information and their posts
 - **Content Discovery**: Browse posts by newest or most popular
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 code/
@@ -52,7 +52,7 @@ code/
 │   └── post_content/         # Post media files
 ```
 
-## 🔧 Technical Requirements
+## Technical Requirements
 
 ### Server Requirements
 - **PHP**: Version 7.4 or higher
@@ -66,7 +66,7 @@ code/
 - Safari (latest)
 - Edge (latest)
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Database Configuration
 1. Create a MySQL database
@@ -149,7 +149,7 @@ chmod 755 uploads/post_content/
 1. Place a default profile image at `uploads/profiles/default.png`
 2. Add your logo to `Images/logo.png`
 
-## 👤 User Management
+## User Management
 
 ### Creating the First Admin Account
 **Important**: The admin signup page requires existing admin authorization by default. For initial setup:
@@ -162,7 +162,7 @@ chmod 755 uploads/post_content/
 - **Regular Users** (`userRank = 0`): Can create posts, like content, manage their profile
 - **Administrators** (`userRank = 1`): Have additional privileges and can create other admin accounts
 
-## 🔐 Security Features
+## Security Features
 
 ### Authentication & Authorization
 - **Password Hashing**: All passwords are hashed using PHP's `password_hash()`
@@ -176,7 +176,7 @@ chmod 755 uploads/post_content/
 - **File Size Limits**: Maximum file size restrictions
 - **Secure Upload Path**: Files stored outside web root when possible
 
-## 📱 User Interface
+## User Interface
 
 ### Design Features
 - **Responsive Design**: Bootstrap 5 framework for mobile compatibility
@@ -189,7 +189,7 @@ chmod 755 uploads/post_content/
 - **User Authentication**: Clear login/logout states
 - **Content Discovery**: Easy switching between newest and popular posts
 
-## 🔄 Core Functionality
+## Core Functionality
 
 ### Post Management
 - **Rich Text Posts**: Support for text content with media
@@ -202,7 +202,7 @@ chmod 755 uploads/post_content/
 - **Engagement Display**: Real-time like and comment counts
 - **User Profiles**: View other users' profiles and posts
 
-## 🛠 Maintenance
+## Maintenance
 
 ### Regular Tasks
 - **Database Cleanup**: Periodically clean up orphaned media files
